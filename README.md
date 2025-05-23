@@ -1,5 +1,13 @@
-# bimodal neuron embedding
-This is the codebase for bimodal neuron embedding
+# NEMO
+
+Neuronal Embeddings via MultimOdal contrastive learning (**NEMO**) is a self-supervised algorithm for extracting neuron embeddings from electrophysiological recordings to predict the underlying cell-types and brain regions.
+
+Publication: [In vivo cell-type and brain region classification via multimodal contrastive learning](https://openreview.net/forum?id=10JOlFIPjt), ICLR 2025 (Spotlight)
+
+<p align="center">
+    <img src=assets/NEMO_overview.png />
+</p>
+
 
 ## Installation
 
@@ -40,8 +48,8 @@ source ~/.bashrc
 
 Download NEMO from github and then install its dependencies and the package:
 ```console
-git clone https://github.com/Haansololfp/celltype_ibl.git
-cd celltype_ibl
+git clone https://github.com/Haansololfp/NEMO_ICLR.git
+cd NEMO_ICLR
 pip install -e .
 ```
 
